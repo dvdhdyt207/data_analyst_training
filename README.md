@@ -33,6 +33,7 @@ Analyze the global average sea level change dataset since 1880. You will use **P
    ```bash
    git clone https://github.com/kepergok/data_analyst_training.git
 2. Install the required libraries:
+   ```bash
     pip install numpy pandas matplotlib seaborn scipy
 3. Open the Jupyter notebooks for each project and run the code.
 
