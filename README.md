@@ -1,41 +1,66 @@
-# Data Analyst Training
+# Data Analyst Portfolio – freeCodeCamp Projects
 
-This repository is dedicated to Data Analyst training using various Python libraries, including **NumPy**, **Pandas**, and **Matplotlib**. The projects in this repository are part of the freeCodeCamp curriculum and focus on applying data analysis techniques to real-world datasets.
+Welcome to my Data Analyst training repository! This collection of projects was completed as part of the **freeCodeCamp Data Analysis with Python Certification**. The projects cover core data analysis skills using powerful Python libraries such as **NumPy**, **Pandas**, **Matplotlib**, and **Seaborn**.
 
-## Projects
+Each project is based on real-world datasets and challenges, allowing me to practice data cleaning, analysis, and visualization — essential skills for any aspiring data analyst.
 
-### Project 1: Mean, Variance, and Standard Deviation Calculator
-In this project, you will create a Python function using **NumPy** to compute the mean, variance, standard deviation, max, min, and sum of a 3x3 matrix. The input is a list of 9 digits, which is converted into a 3x3 NumPy array. The function returns these statistics for the rows, columns, and the entire matrix.
+---
 
-### Project 2: Demographic Data Analysis
-Analyze a dataset from the 1994 Census using **Pandas** to answer questions related to race, age, education, and salary. The project requires you to calculate various metrics, including race representation, the average age of men, and salary percentages based on education level and more.
+## 📁 Projects Overview
 
-### Project 3: Medical Data Visualization
-This project explores the relationships between body measurements, blood markers, and lifestyle choices in relation to cardiac diseases. Using **Pandas** and **Seaborn**, the project includes tasks like data cleaning, generating categorical plots, and drawing heatmaps to understand correlations in the medical data.
+### 📌 1. Mean, Variance, and Standard Deviation Calculator
+A Python function that calculates mean, variance, standard deviation, max, min, and sum across rows, columns, and the entire matrix using **NumPy**. Input is a 3x3 matrix formed from a list of 9 numbers.
 
-### Project 4: Time Series Data Visualization
-You will visualize time-series data of forum page views from freeCodeCamp from 2016-2019 using **Matplotlib**, **Pandas**, and **Seaborn**. The project involves creating line charts, bar plots, and box plots to understand the trends and seasonal variations in page views.
+### 📌 2. Demographic Data Analyzer
+Using **Pandas**, I analyzed data from the 1994 U.S. Census to explore demographic patterns such as race distribution, average age by gender, and the impact of education on income levels.
 
-### Project 5: Sea Level Change Analysis
-Analyze the global average sea level change dataset since 1880. You will use **Pandas** and **Matplotlib** to plot the rise in sea level and predict future changes through 2050 using linear regression models based on historical data.
+### 📌 3. Medical Data Visualizer
+This project dives into health metrics and lifestyle choices using a medical examination dataset. With **Seaborn** and **Matplotlib**, I visualized correlations via heatmaps and bar charts after preprocessing and cleaning the data.
 
-## Technologies Used
-- **Python**: The primary programming language used for data manipulation and visualization.
-- **Jupyter Notebooks**: For an interactive coding environment.
-- **NumPy**: For numerical computing.
-- **Pandas**: For data manipulation and analysis.
-- **Matplotlib**: For data visualization.
-- **Seaborn**: For statistical data visualization.
-- **Scipy**: For linear regression analysis.
+### 📌 4. Time Series Visualizer
+Visualization of forum page views over time (2016–2019). Generated line plots, bar charts, and box plots using **Matplotlib**, **Seaborn**, and **Pandas** to highlight seasonal trends and fluctuations.
 
-## Getting Started
-1. Clone this repository:
+### 📌 5. Sea Level Predictor
+Analyzed and forecasted sea level rise from 1880 to 2050. Utilized **Scipy** for linear regression modeling and **Matplotlib** to visualize both historical and predicted trends.
+
+---
+
+## 🛠 Technologies Used
+
+- **Python 3**
+- **NumPy**
+- **Pandas**
+- **Matplotlib**
+- **Seaborn**
+- **Scipy**
+- **Jupyter Notebook**
+
+---
+
+## 🚀 How to Run
+
+1. **Clone this repository**  
    ```bash
-   git clone https://github.com/kepergok/data_analyst_training.git
-2. Install the required libraries:
-   ```bash
-    pip install numpy pandas matplotlib seaborn scipy
-3. Open the Jupyter notebooks for each project and run the code.
+   git clone https://github.com/dvdhdyt207/data_analyst_training.git
+   ```
 
-## License
-This repository is open-source and available under the MIT License.
+2. **Install the dependencies**  
+   ```bash
+   pip install numpy pandas matplotlib seaborn scipy
+   ```
+
+3. **Run the notebooks**  
+   Open each `.ipynb` file in Jupyter Notebook or VS Code and execute the cells.
+
+---
+
+## 📜 License
+
+This repository is released under the [MIT License](https://opensource.org/licenses/MIT). Feel free to explore, use, and contribute!
+
+---
+
+## 🙋‍♂️ Author
+
+**[@dvdhdyt207](https://github.com/dvdhdyt207)** – Passionate about turning data into insights 🌐📊  
+Let’s connect and grow together in the world of data!
